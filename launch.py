@@ -250,9 +250,9 @@ def prepare_environment():
 
     xformers_windows_package = os.environ.get('XFORMERS_WINDOWS_PACKAGE', 'https://github.com/C43H66N12O12S2/stable-diffusion-webui/releases/download/f/xformers-0.0.14.dev0-cp310-cp310-win_amd64.whl')
 
-    taming_transformers_repo = os.environ.get('TAMING_TRANSFORMERS_REPO', "https://github.com/CompVis/taming-transformers.git")
-    codeformer_repo = os.environ.get('CODEFORMER_REPO', 'https://github.com/sczhou/CodeFormer.git')
-    blip_repo = os.environ.get('BLIP_REPO', 'https://github.com/salesforce/BLIP.git')
+    taming_transformers_repo = os.environ.get('TAMING_TRANSFORMERS_REPO', "D:/Project/taming-transformers")
+    codeformer_repo = os.environ.get('CODEFORMER_REPO', 'D:/Project/CodeFormer')
+    blip_repo = os.environ.get('BLIP_REPO', 'D:/Project/BLIP')
     sd_repo = os.environ.get('BLIP_REPO', 'https://github.com/lshqqytiger/stablediffusion-directml.git')
     k_diffusion_repo = os.environ.get('BLIP_REPO', 'https://github.com/lshqqytiger/k-diffusion-directml.git')
 
